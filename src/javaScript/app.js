@@ -1,4 +1,4 @@
-//dhl提交
+//Tom 提交的
 //主要入口文件
 
 const Router = require('./router/index');
@@ -9,12 +9,7 @@ const home_controller = require('./controllers/home_controller');
 home_controller.render(); 
 
 
-
 //开启陆由工具
 const router = new Router('#/content');
 window.router = router;    //将router设为全局变量 方便在其他文件里使用
 router.init();
-
-
-
-//错误冲突
