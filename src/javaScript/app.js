@@ -1,7 +1,7 @@
-//dhl提交的dongxi
+
+//dhl提交
 //主要入口文件
 
-const Router = require('./router/index');
 // require('./modules/flexible');
 const home_controller = require('./controllers/home_controller');
 //调用render的渲染函数 
