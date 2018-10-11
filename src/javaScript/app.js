@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 //Tom 提交的
-=======
 //dhl提交
->>>>>>> dlh-detail
-=======
-//Tom 提交的
->>>>>>> dlh-detail
 //主要入口文件
 
 const Router = require('./router/index');
