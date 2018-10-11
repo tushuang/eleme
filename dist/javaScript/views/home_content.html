@@ -1,0 +1,104 @@
+
+
+<div class="foot-entry"> 
+</div>
+<div class="purchase">
+    <div class="purchase-item">
+        <div class="text">
+            <h3>品质套餐</h3>
+            <p>搭配齐全吃得好</p>
+            <p>立即抢购 ></p>
+        </div>
+        <div class="img">
+            <img src="https://fuss10.elemecdn.com/d/d4/16ff085900d62b8d60fa7e9c6b65dpng.png?imageMogr/format/webp/thumbnail/!240x160r/gravity/Center/crop/240x160/" alt="">
+        </div>
+    </div>
+    <div class="purchase-item">
+        <div class="text">
+            <h3>品质套餐</h3>
+            <p>搭配齐全吃得好</p>
+            <p>立即抢购 ></p>
+        </div>
+        <div class="img">
+            <img src="https://fuss10.elemecdn.com/d/d4/16ff085900d62b8d60fa7e9c6b65dpng.png?imageMogr/format/webp/thumbnail/!240x160r/gravity/Center/crop/240x160/" alt="">
+        </div>
+    </div>
+</div>
+
+<div class="recommend-shop">
+    <p class="title"> <em>—</em> &nbsp;  推荐商家 &nbsp;<em>—</em></p>
+    <ul class="recommend-top">
+        <li>{{name}} <i class="iconfont icon-jiantouarrow486"></i> </li>
+        <li>{{name}}</li>
+        <li>品质联盟</li>
+        <li>筛选 <i class="iconfont icon-shaixuan"></i> </li>
+    </ul>
+    <ul class="recommend-list">
+    {{#each _dataObj}}
+        <li> 
+            <div class="shop-img">
+                <img src="https://fuss10.elemecdn.com/0/46/ee233f76bf7fa98dec4c0dd980ee4png.png?imageMogr/format/webp/thumbnail/!130x130r/gravity/Center/crop/130x130/" alt="">
+            </div>
+            <div class="shop-detail">
+                <p>
+                    <span class="left">
+                        <em>品牌</em> 
+                        <strong class="shop-title">{{this.restaurant.name}}</strong>
+                    </span>
+                    <span class="right">
+                        <i class="iconfont icon-tel"></i>
+                        <i class="iconfont icon-gengduo"></i>
+                    </span> 
+                </p>
+                <p>
+                    <span class="left">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IHgxPSIwJSIgeTE9IjUwJSIgeTI9IjUwJSIgaWQ9ImEiPjxzdG9wIHN0b3AtY29sb3I9IiNGRkRFMDAiIG9mZnNldD0iMCUiLz48c3RvcCBzdG9wLWNvbG9yPSIjRkZCMDAwIiBvZmZzZXQ9IjEwMCUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNNTQuMDE3IDguMDcybC0yLjU1MiAxLjU2MWMtLjQ3Ni4yOTEtLjc1OC4wOTYtLjYyNi0uNDU1bC42OTYtMi45MDktMi4yNzMtMS45NDRjLS40MjQtLjM2Mi0uMzI1LS42OTEuMjM5LS43MzZsMi45ODItLjIzN0w1My42My41ODljLjIxMy0uNTE1LjU1Ny0uNTIzLjc3NCAwbDEuMTQ2IDIuNzYzIDIuOTgyLjIzN2MuNTU2LjA0NC42Ny4zNjguMjQuNzM2bC0yLjI3NCAxLjk0NC42OTYgMi45MWMuMTMuNTQyLS4xNDMuNzUtLjYyNi40NTRsLTIuNTUxLTEuNTZ6bS00OCAwTDMuNDY1IDkuNjMzYy0uNDc2LjI5MS0uNzU4LjA5Ni0uNjI2LS40NTVsLjY5Ni0yLjkwOS0yLjI3My0xLjk0NGMtLjQyNC0uMzYyLS4zMjUtLjY5MS4yMzktLjczNmwyLjk4Mi0uMjM3TDUuNjMuNTg5Yy4yMTMtLjUxNS41NTctLjUyMy43NzQgMEw3LjU1IDMuMzUybDIuOTgyLjIzN2MuNTU2LjA0NC42Ny4zNjguMjQuNzM2TDguNDk3IDYuMjY5bC42OTYgMi45MWMuMTMuNTQyLS4xNDMuNzUtLjYyNi40NTRsLTIuNTUxLTEuNTZ6bTEyIDBsLTIuNTUyIDEuNTYxYy0uNDc2LjI5MS0uNzU4LjA5Ni0uNjI2LS40NTVsLjY5Ni0yLjkwOS0yLjI3My0xLjk0NGMtLjQyNC0uMzYyLS4zMjUtLjY5MS4yMzktLjczNmwyLjk4Mi0uMjM3TDE3LjYzLjU4OWMuMjEzLS41MTUuNTU3LS41MjMuNzc0IDBsMS4xNDYgMi43NjMgMi45ODIuMjM3Yy41NTYuMDQ0LjY3LjM2OC4yNC43MzZsLTIuMjc0IDEuOTQ0LjY5NiAyLjkxYy4xMy41NDItLjE0My43NS0uNjI2LjQ1NGwtMi41NTEtMS41NnptMTIgMGwtMi41NTIgMS41NjFjLS40NzYuMjkxLS43NTguMDk2LS42MjYtLjQ1NWwuNjk2LTIuOTA5LTIuMjczLTEuOTQ0Yy0uNDI0LS4zNjItLjMyNS0uNjkxLjIzOS0uNzM2bDIuOTgyLS4yMzdMMjkuNjMuNTg5Yy4yMTMtLjUxNS41NTctLjUyMy43NzQgMGwxLjE0NiAyLjc2MyAyLjk4Mi4yMzdjLjU1Ni4wNDQuNjcuMzY4LjI0LjczNmwtMi4yNzQgMS45NDQuNjk2IDIuOTFjLjEzLjU0Mi0uMTQzLjc1LS42MjYuNDU0bC0yLjU1MS0xLjU2em0xMiAwbC0yLjU1MiAxLjU2MWMtLjQ3Ni4yOTEtLjc1OC4wOTYtLjYyNi0uNDU1bC42OTYtMi45MDktMi4yNzMtMS45NDRjLS40MjQtLjM2Mi0uMzI1LS42OTEuMjM5LS43MzZsMi45ODItLjIzN0w0MS42My41ODljLjIxMy0uNTE1LjU1Ny0uNTIzLjc3NCAwbDEuMTQ2IDIuNzYzIDIuOTgyLjIzN2MuNTU2LjA0NC42Ny4zNjguMjQuNzM2bC0yLjI3NCAxLjk0NC42OTYgMi45MWMuMTMuNTQyLS4xNDMuNzUtLjYyNi40NTRsLTIuNTUxLTEuNTZ6IiBmaWxsPSJ1cmwoI2EpIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L3N2Zz4=" alt="">
+                        4.8月 4315单
+                    </span>
+                    <span class="right">
+                        {{name}}
+                    </span>
+                </p>
+                <p>
+                    <span class="left">
+                        ￥20起送 &nbsp; 远距离配送费￥7
+                    </span>
+                    <span class="right">
+                        3.37km &nbsp; 23分钟
+                    </span>
+                </p>
+               
+            </div>
+            <div class="active">
+                 <p>
+                    <span class="left">
+                        <em>{{name}}</em> &nbsp;
+                        <span class="icon">
+                            <i class="iconfont icon-koubei"></i>
+                            口碑人气好店
+                        </span>
+                    </span>
+                </p>
+                <p>
+                    <span class="left">
+                        <em>新</em> &nbsp;
+                        <span>
+                            新用户下单立减17元
+                        </span>
+                        
+                    </span>
+                    <span class="right">
+                        3个活动 <i class="iconfont icon-jiantouarrow486"></i>
+                    </span>
+                </p>
+                <p>
+                    <span class="left">
+                        <em>减</em> &nbsp;
+                        <span>满30减28，满40减30，满88减39，满1...</span>
+                    </span>
+                </p>
+            </div>
+        </li>
+    {{/each}}
+    </ul>
+</div> 
