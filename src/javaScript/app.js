@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Tom 提交的
 =======
 //dhl提交
+>>>>>>> dlh-detail
+=======
+//Tom 提交的
 >>>>>>> dlh-detail
 //主要入口文件
 
@@ -13,12 +17,7 @@ const home_controller = require('./controllers/home_controller');
 home_controller.render(); 
 
 
-
 //开启陆由工具
 const router = new Router('#/content');
 window.router = router;    //将router设为全局变量 方便在其他文件里使用
 router.init();
-
-
-
-//错误冲突
